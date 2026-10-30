@@ -1,0 +1,17 @@
+# Run:  docker compose up -d --build      (fill in .env first: cp .env.example .env)
+services:
+  backend:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      DATABASE_FILE: /app/data/quantinox.db
+      HOST: 0.0.0.0
+    ports:
+      - "127.0.0.1:4000:4000"   # put Caddy/Nginx in front for HTTPS
+    volumes:
+      - quantinox-data:/app/data
+      # Single-server mode: uncomment and set SERVE_SITE_DIR=/site in .env
+      # - ../quantinox-site:/site:ro
+volumes:
+  quantinox-data:

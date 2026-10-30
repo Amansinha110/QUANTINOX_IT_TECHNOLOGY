@@ -1,0 +1,355 @@
+{
+  "_about": "Words visitors use -> words the website uses. Quanta AI searches for both, so 'GST' also finds the tax section. Edit freely, then run: python3 tools/build-assistant-kb.py",
+  "gst": [
+    "tax",
+    "taxes",
+    "invoice",
+    "compliance",
+    "statutory",
+    "जीएसटी",
+    "टैक्स"
+  ],
+  "tax": [
+    "gst",
+    "compliance",
+    "statutory",
+    "टैक्स",
+    "कर"
+  ],
+  "einvoice": [
+    "invoice",
+    "gst",
+    "tax",
+    "इनवॉइस"
+  ],
+  "invoice": [
+    "billing",
+    "invoicing",
+    "इनवॉइस",
+    "बिलिंग"
+  ],
+  "billing": [
+    "invoice",
+    "sales",
+    "बिलिंग"
+  ],
+  "payroll": [
+    "salary",
+    "hr",
+    "employee",
+    "पेरोल",
+    "वेतन"
+  ],
+  "salary": [
+    "payroll",
+    "hr",
+    "पेरोल",
+    "वेतन"
+  ],
+  "employee": [
+    "hr",
+    "payroll",
+    "कर्मचारी"
+  ],
+  "staff": [
+    "hr",
+    "employee",
+    "कर्मचारी"
+  ],
+  "hiring": [
+    "recruitment",
+    "hr"
+  ],
+  "attendance": [
+    "leave",
+    "hr",
+    "छुट्टी"
+  ],
+  "inventory": [
+    "stock",
+    "warehouse",
+    "supply",
+    "स्टॉक",
+    "इन्वेंटरी"
+  ],
+  "stock": [
+    "inventory",
+    "warehouse",
+    "स्टॉक",
+    "इन्वेंटरी"
+  ],
+  "warehouse": [
+    "inventory",
+    "stock",
+    "logistics",
+    "वेयरहाउस",
+    "गोदाम"
+  ],
+  "logistics": [
+    "supply",
+    "warehouse"
+  ],
+  "price": [
+    "pricing",
+    "cost",
+    "कीमत",
+    "प्राइसिंग"
+  ],
+  "cost": [
+    "pricing",
+    "price",
+    "savings",
+    "कीमत",
+    "लागत"
+  ],
+  "pricing": [
+    "price",
+    "कीमत",
+    "प्राइसिंग"
+  ],
+  "crm": [
+    "sales",
+    "customer",
+    "pipeline",
+    "leads",
+    "सेल्स"
+  ],
+  "accounting": [
+    "finance",
+    "ledger",
+    "accounts",
+    "फ़ाइनेंस",
+    "अकाउंटिंग"
+  ],
+  "accounts": [
+    "finance",
+    "ledger",
+    "receivables",
+    "payables",
+    "फ़ाइनेंस"
+  ],
+  "books": [
+    "finance",
+    "ledger",
+    "accounting"
+  ],
+  "cash": [
+    "treasury",
+    "receivables",
+    "finance",
+    "liquidity"
+  ],
+  "purchase": [
+    "procurement",
+    "supplier",
+    "vendor",
+    "sourcing",
+    "खरीद"
+  ],
+  "purchasing": [
+    "procurement",
+    "supplier",
+    "vendor",
+    "sourcing",
+    "खरीद"
+  ],
+  "vendor": [
+    "supplier",
+    "procurement",
+    "वेंडर",
+    "सप्लायर"
+  ],
+  "supplier": [
+    "vendor",
+    "procurement",
+    "सप्लायर"
+  ],
+  "production": [
+    "manufacturing",
+    "उत्पादन",
+    "मैन्युफैक्चरिंग"
+  ],
+  "factory": [
+    "manufacturing",
+    "production",
+    "फ़ैक्ट्री"
+  ],
+  "plant": [
+    "manufacturing",
+    "production",
+    "प्लांट"
+  ],
+  "project": [
+    "services",
+    "projects",
+    "प्रोजेक्ट"
+  ],
+  "maintenance": [
+    "assets",
+    "asset",
+    "equipment",
+    "मेंटेनेंस"
+  ],
+  "equipment": [
+    "assets",
+    "asset",
+    "maintenance"
+  ],
+  "machine": [
+    "assets",
+    "equipment",
+    "maintenance",
+    "manufacturing"
+  ],
+  "chatbot": [
+    "ai",
+    "assistant",
+    "quanta",
+    "agent"
+  ],
+  "copilot": [
+    "ai",
+    "assistant",
+    "quanta",
+    "agent"
+  ],
+  "agent": [
+    "ai",
+    "agents",
+    "automation"
+  ],
+  "automation": [
+    "ai",
+    "agent",
+    "agents",
+    "workflow"
+  ],
+  "migrate": [
+    "migration",
+    "implementation"
+  ],
+  "migration": [
+    "implementation",
+    "transform"
+  ],
+  "tally": [
+    "migration",
+    "accounting"
+  ],
+  "implementation": [
+    "rollout",
+    "transform",
+    "onboarding",
+    "go-live"
+  ],
+  "rollout": [
+    "implementation",
+    "transform",
+    "onboarding"
+  ],
+  "security": [
+    "trust",
+    "privacy",
+    "compliance",
+    "encryption",
+    "सुरक्षा"
+  ],
+  "privacy": [
+    "security",
+    "trust",
+    "प्राइवेसी"
+  ],
+  "mobile": [
+    "मोबाइल"
+  ],
+  "report": [
+    "reporting",
+    "analytics",
+    "dashboard",
+    "रिपोर्ट"
+  ],
+  "dashboard": [
+    "analytics",
+    "reporting",
+    "report"
+  ],
+  "analytics": [
+    "reporting",
+    "dashboard",
+    "insights"
+  ],
+  "trial": [
+    "demo",
+    "ट्रायल"
+  ],
+  "demo": [
+    "trial",
+    "डेमो"
+  ],
+  "support": [
+    "सपोर्ट"
+  ],
+  "integration": [
+    "connectors",
+    "इंटीग्रेशन"
+  ],
+  "api": [
+    "integration",
+    "developers"
+  ],
+  "retail": [
+    "pos",
+    "रिटेल"
+  ],
+  "pharma": [
+    "फ़ार्मा"
+  ],
+  "जीएसटी": [
+    "gst",
+    "टैक्स",
+    "इनवॉइस"
+  ],
+  "टैक्स": [
+    "gst",
+    "जीएसटी",
+    "कर"
+  ],
+  "वेतन": [
+    "पेरोल",
+    "payroll",
+    "hr"
+  ],
+  "सैलरी": [
+    "पेरोल",
+    "वेतन",
+    "payroll"
+  ],
+  "कीमत": [
+    "प्राइसिंग",
+    "pricing"
+  ],
+  "दाम": [
+    "कीमत",
+    "प्राइसिंग",
+    "pricing"
+  ],
+  "खरीद": [
+    "procurement",
+    "प्रोक्योरमेंट",
+    "सप्लायर"
+  ],
+  "बिक्री": [
+    "sales",
+    "सेल्स"
+  ],
+  "गोदाम": [
+    "वेयरहाउस",
+    "स्टॉक",
+    "इन्वेंटरी"
+  ],
+  "कर्मचारी": [
+    "hr",
+    "पेरोल",
+    "employee"
+  ]
+}

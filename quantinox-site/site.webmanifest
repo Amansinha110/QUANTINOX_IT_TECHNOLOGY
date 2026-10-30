@@ -1,0 +1,13 @@
+{
+  "name": "Quantinox Cloud ERP",
+  "short_name": "Quantinox",
+  "start_url": "/index.html",
+  "display": "browser",
+  "background_color": "#FFFFFF",
+  "theme_color": "#2F54EB",
+  "icons": [
+    { "src": "/assets/img/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/assets/img/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/assets/img/logo-mark.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
